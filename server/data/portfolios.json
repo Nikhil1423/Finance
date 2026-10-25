@@ -1,0 +1,84 @@
+[
+  {
+    "id": "port-1",
+    "name": "Core Compounders (50% Tier)",
+    "description": "High-conviction compounders for long-term wealth creation (50% Capital Tier)",
+    "createdAt": "2026-10-11",
+    "stocks": [
+      {
+        "ticker": "KALYANKJIL",
+        "name": "Kalyan Jewellers India Ltd",
+        "sector": "Consumer Discretionary",
+        "buyPrice": 510,
+        "targetPrice": 650,
+        "quantity": 100,
+        "notes": "Accelerating FOCO franchise rollout, ROCE expanding to 21%, PEG < 1.0.",
+        "conviction": "High (50% Tier)",
+        "addedAt": "2026-10-11"
+      },
+      {
+        "ticker": "TCS",
+        "name": "Tata Consultancy Services Ltd",
+        "sector": "IT Services",
+        "buyPrice": 3820,
+        "targetPrice": 4600,
+        "quantity": 20,
+        "notes": "Debt-free compounding machine, ROCE 64%, massive shareholder cash return.",
+        "conviction": "High (50% Tier)",
+        "addedAt": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "id": "port-2",
+    "name": "Growth Alpha (25% Tier)",
+    "description": "Fast-growing midcaps with ROCE > 20% and 5-Year profit growth > 15%",
+    "createdAt": "2026-10-11",
+    "stocks": [
+      {
+        "ticker": "DIXON",
+        "name": "Dixon Technologies Ltd",
+        "sector": "Electronics Mfg",
+        "buyPrice": 12800,
+        "targetPrice": 16500,
+        "quantity": 5,
+        "notes": "Leader in electronics EMS, continuous margin expansion from backward integration.",
+        "conviction": "Medium (25% Tier)",
+        "addedAt": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "id": "port-3",
+    "name": "Dip Watchlist & Opportunistic",
+    "description": "Screened companies waiting for Buffett 20% Margin of Safety trigger price",
+    "createdAt": "2026-10-11",
+    "stocks": [
+      {
+        "ticker": "TITAN",
+        "name": "Titan Company Ltd",
+        "sector": "Consumer Discretionary",
+        "buyPrice": 3300,
+        "targetPrice": 4200,
+        "quantity": 10,
+        "notes": "Wait for valuation correction near 200 EMA before initial accumulation.",
+        "conviction": "Watchlist",
+        "addedAt": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "id": "port-1791749107440",
+    "name": "vc",
+    "description": "",
+    "createdAt": "2026-10-11",
+    "stocks": []
+  },
+  {
+    "id": "port-1791749122349",
+    "name": "cvn vmghmghmg",
+    "description": "",
+    "createdAt": "2026-10-11",
+    "stocks": []
+  }
+]
