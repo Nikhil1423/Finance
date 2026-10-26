@@ -1,10 +1,22 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import fs from 'node:fs';
+
+const copy404Plugin = () => ({
+  name: 'copy-404',
+  closeBundle() {
+    try {
+      if (fs.existsSync('dist/index.html')) {
+        fs.copyFileSync('dist/index.html', 'dist/404.html');
+      }
+    } catch {}
+  }
+});
 
 // https://vite.dev/config/
 export default defineConfig({
   base: './',
-  plugins: [react()],
+  plugins: [react(), copy404Plugin()],
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
